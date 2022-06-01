@@ -1,0 +1,100 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: transparent;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.ima{
+	margin-left: 75px;
+}
+.photo{
+	width: 10%;
+	height: 40px;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+	min-width: 135px;
+/*	box-shadow: 0px 2px 7px black;*/
+	padding: 15px 0px;
+	margin-top: 11px;
+	color: white;
+	border-radius: 3%;
+	font-weight: bolder;
+}
+
+.ovbject tr th{
+	font-weight: bolder;
+	letter-spacing: 2px;
+	font-size: 20px;
+	justify-content: center;
+}
+span{
+	
+    font-size: 16px;
+}
+.dropdown-content p{
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+table tr th img{
+
+	transition: 1s linear;
+}
+table tr th:hover img{
+        width: 90%;
+ 
+        
+}
+.checked{
+	color: orange;
+}
+.design{ 
+    margin-left: 8px;
+    height: 10px;
+    width: 50px;
+     }
+ .hmm ul li{ 
+          margin-top: 10px;
+
+}
+
+
+.maindv{ 
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    background-image: url(images/slider1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px gray;
+    animation:sliderr 30s infinite linear;
+    transition: all 4s linear;
+
+ }
+
+ @keyframes sliderr{ 
+         0%{ background-image: url(images/slider1.jpg); }
+         15%{  background-image: url(images/slider2.jpg); }
+         30%{  background-image: url(images/slider3.jpg); }
+         50%{ background-image: url(images/slider4.jpg); }
+         65%{ background-image: url(images/slider5.jpg); }
+         80%{ background-image: url(images/slider6.jpg); }
+         90%{ background-image: url(images/slider7.jpg); }
+
+
+ }
+
+
